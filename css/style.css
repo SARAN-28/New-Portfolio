@@ -517,3 +517,29 @@ body.dark {
     margin: 8px 0 12px;
   }
 }
+
+.about-text {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.photo {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border: 3px solid var(--blue);
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .about-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo {
+    width: 200px;
+    height: 200px;
+  }
+}
