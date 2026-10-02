@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of SARAN P, MERN Stack Developer from Namakkal, Tamil Nadu.">
+  <title>SARAN P | MERN Stack Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container navbar">
+      <a href="#top" class="logo">SARAN P</a>
+      <button class="menu-btn" id="menuBtn">&#9776;</button>
+      <ul id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-btn" id="themeBtn" title="Change theme">&#9790;</button></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>SARAN P</h1>
+          <p class="role">MERN Stack Developer</p>
+          <p>Full Stack Developer with 6 months of hands-on experience building a role-based Employee Management Portal
+            during an internship. I work with React.js, Node.js, Express.js and MySQL/MongoDB.</p>
+          <div class="buttons">
+            <a href="#projects" class="btn btn-fill">View Projects</a>
+            <a href="#contact" class="btn btn-border">Contact Me</a>
+          </div>
+        </div>
+        <div class="code-box">
+          <div class="code-title">developer.js</div>
+          <pre><span class="blue">const</span> developer = {
+  name: <span class="green">"SARAN P"</span>,
+  stack: [<span class="green">"MongoDB"</span>, <span class="green">"Express"</span>,
+          <span class="green">"React"</span>, <span class="green">"Node.js"</span>],
+};</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About me</h2>
+        <div class="two-col">
+          <div>
+            <p>I am a Full Stack Developer (MERN) from Namakkal, Tamil Nadu. During my 6-month internship at GeekBase
+              Technology, I built core modules of an Employee Management Portal using React.js, Node.js, Express.js,
+              Sequelize and MySQL.</p>
+            <p>I focus on writing clean and secure code, and I am looking forward to contributing to real-world projects
+              and growing as a developer.</p>
+          </div>
+          <div class="card">
+            <h3>Quick facts</h3>
+            <ul>
+              <li>Role: MERN Stack Developer</li>
+              <li>Location: Namakkal, Tamil Nadu</li>
+              <li>Experience: 6 months internship</li>
+              <li>Degree: MCA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="alt">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="card job">
+          <div class="job-top">
+            <div>
+              <h3>MERN Stack Developer Intern</h3>
+              <p class="company">GeekBase Technology</p>
+            </div>
+            <p class="small">Feb 2026 - Aug 2026<br>Rasipuram, Namakkal</p>
+          </div>
+          <ul>
+            <li>Built core modules of E-Clocker across 6 functional areas (attendance, timesheet, leave, comp-off,
+              holiday and announcement management) using React.js, Node.js, Express.js, Sequelize ORM and MySQL.</li>
+            <li>Built secure clock-in/out with image capture and geo-location verification, storing images in AWS S3
+              using presigned URLs, and tracked total vs. effective working hours.</li>
+            <li>Streamlined approval workflows for regularization, weekly timesheets, and leave/comp-off requests, with
+              admin approve/reject actions and employee acknowledgment tracking.</li>
+            <li>Implemented admin OTP-based 2FA login, employee JWT authentication, role-based access control and Joi
+              request validation. Tested REST APIs with Postman.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Featured project</h2>
+        <div class="card">
+          <div class="project-top">
+            <h3>Employee Management Portal (E-Clocker)</h3>
+            <a href="https://github.com/SARAN-28/E-Clocker" target="_blank">GitHub repository</a>
+          </div>
+          <p class="small">A role-based (Admin/Employee) workforce management system with separate dashboards,
+            permissions and API access levels for each role.</p>
+          <div class="project-body">
+            <div>
+              <h4>What it does</h4>
+              <ul>
+                <li>Role-based Admin and Employee access</li>
+                <li>Email invitation flow (Crypto + Nodemailer) that creates the employee profile and initial leave
+                  balances on signup</li>
+                <li>Clock-in/out with image and geo-location capture stored on AWS S3</li>
+                <li>Missed-punch regularization and total/effective hours tracking</li>
+                <li>Weekly timesheets with task-level entries, validated against attendance hours, with admin
+                  approve/reject</li>
+                <li>Leave and comp-off management with week-off/holiday-aware validation and balance calculation</li>
+                <li>Announcement feed with likes, comments and pagination, plus scheduled reminders using node-cron</li>
+                <li>JWT authentication and OTP-based 2FA for admin</li>
+                <li>Sequelize/MySQL schema with 20+ tables, cascading deletes and unique constraints</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Built with</h4>
+              <ul class="tags">
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Sequelize ORM</li>
+                <li>MySQL</li>
+                <li>JWT</li>
+                <li>AWS S3</li>
+                <li>Nodemailer</li>
+                <li>Crypto</li>
+                <li>node-cron</li>
+                <li>Joi</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="alt">
+      <div class="container">
+        <h2>Technical skills</h2>
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Front-End Development</h3>
+            <ul class="tags">
+              <li>React.js</li>
+              <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Tailwind CSS</li>
+              <li>Responsive Web Design</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Back-End Development</h3>
+            <ul class="tags">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>RESTful API Development</li>
+              <li>JWT Auth</li>
+              <li>Joi Validation</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Databases</h3>
+            <ul class="tags">
+              <li>MySQL (RDBMS)</li>
+              <li>Sequelize ORM</li>
+              <li>MongoDB (NoSQL)</li>
+              <li>Schema Design</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Cloud &amp; Integrations</h3>
+            <ul class="tags">
+              <li>AWS S3 (Presigned URLs)</li>
+              <li>Nodemailer</li>
+              <li>node-cron</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Tools</h3>
+            <ul class="tags">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Postman</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Soft Skills</h3>
+            <ul class="tags">
+              <li>Time Management</li>
+              <li>Adaptability</li>
+              <li>Teamwork &amp; Collaboration</li>
+              <li>Communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="edu-grid">
+          <div class="card">
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p>KGiSL Institute of Information Management, Coimbatore</p>
+            <p class="small">2023 - 2025 | CGPA 8.1/10</p>
+          </div>
+          <div class="card">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>Kongunadu Arts and Science College, Coimbatore</p>
+            <p class="small">2020 - 2023 | CGPA 7.1/10</p>
+          </div>
+          <div class="card full">
+            <h3>Certification</h3>
+            <p>MERN Stack Development Course (4 months)</p>
+            <p class="small">GeekBase Technology | Sep 2025 - Dec 2025</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:saranponnusamy2853@gmail.com">saranponnusamy2853@gmail.com</a></li>
+          <li><span>Phone</span><a href="tel:+916374485920">+91 6374485920</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/saran-p-4505a6225/"
+              target="_blank">linkedin.com/in/saran-p-4505a6225</a></li>
+          <li><span>GitHub</span><a href="https://github.com/SARAN-28" target="_blank">github.com/SARAN-28</a></li>
+          <li><span>Location</span>Namakkal, Tamil Nadu</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">&copy; 2026 SARAN P. All rights reserved.</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
